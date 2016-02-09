@@ -8,7 +8,7 @@ Directive for angularjs to rate anything you want with 1-5 stars.
 
  `bower install --save rating.stars`
  
- `git clone git://github.com/echonest/pyechonest.git`
+ `git clone git://github.com/JVojczekhovskiy/rating.stars`
 * Add `rating.stars` to your application's module dependencies.
 * Include script and css in your HTML.
 
