@@ -1,0 +1,22 @@
+.list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+.star {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 24px;
+    -ms-flex: 0 0 24px;
+    flex: 0 0 24px;
+    height: 24px;
+    background: url('/img/sprite.png');
+    cursor: pointer
+}
+.star.is-active,
+.star:hover {
+    background-position: -24px 0
+}
