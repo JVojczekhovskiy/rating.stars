@@ -5,8 +5,8 @@
   ],
   "description": "Directive for angularjs to rate with 1-5 stars.",
   "homepage": "https://github.com/JVojczekhovskiy/rating.stars",
-  "main": ["/dist/rating.stars.js",
-	"/dist/rating.stars.css"
+  "main": ["dist/rating.stars.js",
+	"dist/rating.stars.css"
   ],
   "keywords": [
     "angularjs",
