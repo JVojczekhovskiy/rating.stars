@@ -17,15 +17,12 @@ Directive for angularjs to rate anything you want with 1-5 stars.
       
       <link rel="stylesheet" type="text/css" href="dist\rating.stars.css">
       ```
-* Place the img of the stars in the right folder and adjust the path to that img in the rating.stars.css file.
 * Use the `rating.stars` directive.
 
 ## Example
 
 * You can place the rating tags anywhere you want on your webpage.	
-      ```html
-      <rating save-callback='mySaveRatingFunction(rating)' value='myRating'></rating>
-      ```
+      `<rating save-callback='mySaveRatingFunction(rating)' value='myRating'></rating>`
 * The save-callback tag is the function wich will be executed when the user clicks on a star.
 * The value tag is the index of the current rating.
 	
